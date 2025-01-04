@@ -59,6 +59,7 @@ numpages = {18},
 keywords = {Scene Understanding, Vision Language Models},
 location = {Milan, Italy}
 }
-
-  
 ```
+## Acknowledgement
+
+Code is largely based on Mask2Former (https://github.com/facebookresearch/Mask2Former) and DenseCLIP (https://github.com/raoyongming/DenseCLIP).
