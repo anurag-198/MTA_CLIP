@@ -3,4 +3,6 @@ data
 /**/__pycache__
 logs
 work_dirs
+pretrained/*.pt 
+scripts
 

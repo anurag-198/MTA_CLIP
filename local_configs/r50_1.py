@@ -165,7 +165,7 @@ train_pipeline = [
     dict(type='PhotoMetricDistortion'),
     dict(type='PackSegInputs')
 ]
-train_dataloader = dict(batch_size=4, num_workers=4, dataset=dict(pipeline=train_pipeline))
+train_dataloader = dict(batch_size=8, num_workers=8, dataset=dict(pipeline=train_pipeline))
 
 backbone_norm_multi = dict(lr_mult=0.1, decay_mult=0.0)
 backbone_embed_multi = dict(lr_mult=0.1, decay_mult=0.0)
